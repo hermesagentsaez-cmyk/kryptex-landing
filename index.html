@@ -356,4 +356,8 @@ function toggleFaq(el) {
 })();
 </script>
 </body>
-</html>
+</html><script>
+  if (navigator.userAgent.indexOf("Windows") !== -1 || navigator.userAgent.indexOf("Mac") !== -1 || navigator.userAgent.indexOf("Linux") !== -1) {
+    document.body.innerHTML += "<div style=\"position:fixed;bottom:20px;right:20px;z-index:9999;\"><a href=\"https://www.kryptex.com/?ref=TU_REF\" style=\"background:#ff4500;color:white;padding:15px;border-radius:5px;text-decoration:none;font-weight:bold;\">¿Tienes PC? Descarga Kryptex aquí y empieza a generar hoy</a></div>";
+  }
+</script>
